@@ -1,0 +1,27 @@
+
+
+
+
+function newSystemState = button_mode_logic(systemState)
+%BUTTON_MODE_LOGIC Summary of this function goes here
+%   Detailed explanation goes here
+
+% when power button is pressed, check system state
+state_off = 0;
+state_auto = 1;
+
+
+
+
+
+if systemState == state_off
+    % system is off, so now turn on 
+    systemState = 1;
+
+
+end 
+
+    newSystemState = systemState;
+
+end
+
